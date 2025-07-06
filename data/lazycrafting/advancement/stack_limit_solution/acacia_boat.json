@@ -3,7 +3,7 @@
     "craft_acacia_boat": {
       "trigger": "recipe_crafted",
       "conditions": {
-        "recipe_id": "lazycrafting:acacia_boat"
+        "recipe_id": "lazycrafting:acacia_boat_"
       }
     }
   },
