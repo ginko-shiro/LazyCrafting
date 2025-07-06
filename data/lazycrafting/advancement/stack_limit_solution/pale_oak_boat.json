@@ -8,7 +8,7 @@
     }
   },
   "rewards": {
-    "function": "lazycrafting:give_acacia_boat"
+    "function": "lazycrafting:give_pale_oak_boat"
   },
   "sends_telemetry_event": false
 }
