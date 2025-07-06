@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "craft_glistering_melon_slice": {
+      "trigger": "recipe_crafted",
+      "conditions":{
+		"recipe_id": "lazycrafting:glistering_melon_slice"
+		}
+      }
+    },
+  "rewards": {
+    "function":"lazycrafting:give_gold_nugget"
+  },
+  "sends_telemetry_event": false
+}

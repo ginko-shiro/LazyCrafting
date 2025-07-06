@@ -1,0 +1,81 @@
+{
+	"criteria": {
+		"craft_acacia_sign": {
+			"trigger": "recipe_crafted",
+			"conditions":{
+			"recipe_id": "lazycrafting:acacia_sign"
+			}
+		},
+		"craft_birch_sign": {
+			"trigger": "recipe_crafted",
+			"conditions":{
+			"recipe_id": "lazycrafting:birch_sign"
+			}
+		},
+		"craft_cherry_sign": {
+			"trigger": "recipe_crafted",
+			"conditions":{
+			"recipe_id": "lazycrafting:cherry_sign"
+			}
+		},
+		"craft_crimson_sign": {
+			"trigger": "recipe_crafted",
+			"conditions":{
+			"recipe_id": "lazycrafting:crimson_sign"
+			}
+		},
+		"craft_dark_oak_sign": {
+			"trigger": "recipe_crafted",
+			"conditions":{
+			"recipe_id": "lazycrafting:dark_oak_sign"
+			}
+		},
+		"craft_jungle_sign": {
+			"trigger": "recipe_crafted",
+			"conditions":{
+			"recipe_id": "lazycrafting:jungle_sign"
+			}
+		},
+		"craft_mangrove_sign": {
+			"trigger": "recipe_crafted",
+			"conditions":{
+			"recipe_id": "lazycrafting:mangrove_sign"
+			}
+		},
+		"craft_oak_sign": {
+			"trigger": "recipe_crafted",
+			"conditions":{
+			"recipe_id": "lazycrafting:oak_sign"
+			}
+		},
+		"craft_spruce_sign": {
+			"trigger": "recipe_crafted",
+			"conditions":{
+			"recipe_id": "lazycrafting:spruce_sign"
+			}
+		},
+		"craft_warped_sign": {
+			"trigger": "recipe_crafted",
+			"conditions":{
+			"recipe_id": "lazycrafting:warped_sign"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"craft_acacia_sign",
+			"craft_birch_sign",
+			"craft_cherry_sign",
+			"craft_crimson_sign",
+			"craft_dark_oak_sign",
+			"craft_jungle_sign",
+			"craft_mangrove_sign",
+			"craft_oak_sign",
+			"craft_spruce_sign",
+			"craft_warped_sign"
+		]
+	],
+	"rewards": {
+	"function":"lazycrafting:give4stick"
+	}
+}

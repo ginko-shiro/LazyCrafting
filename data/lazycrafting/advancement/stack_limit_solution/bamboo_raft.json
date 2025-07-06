@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "craft_bamboo_raft": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "lazycrafting:bamboo_raft"
+      }
+    }
+  },
+  "rewards": {
+    "function": "lazycrafting:give_bamboo_raft"
+  },
+  "sends_telemetry_event": false
+}

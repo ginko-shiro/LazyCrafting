@@ -1,0 +1,25 @@
+{
+	"criteria": {
+		"craft_lantern": {
+			"trigger": "recipe_crafted",
+			"conditions":{
+			"recipe_id": "lazycrafting:lantern"
+			}
+		},
+		"craft_soul_lantern": {
+			"trigger": "recipe_crafted",
+			"conditions":{
+			"recipe_id": "lazycrafting:soul_lantern"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"craft_lantern",
+			"craft_soul_lantern"
+		]
+	],
+	"rewards": {
+	"function":"lazycrafting:give_iron_nugget"
+	}
+}

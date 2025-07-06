@@ -1,0 +1,13 @@
+{
+	"criteria": {
+		"craft_bamboo_sign": {
+			"trigger": "recipe_crafted",
+			"conditions":{
+			"recipe_id": "lazycrafting:bamboo_sign"
+			}
+		}
+	},
+	"rewards": {
+	"function":"lazycrafting:give2stick"
+	}
+}

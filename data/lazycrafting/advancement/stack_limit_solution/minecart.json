@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "craft_minecart": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "lazycrafting:minecart"
+      }
+    }
+  },
+  "rewards": {
+    "function": "lazycrafting:give_minecart"
+  },
+  "sends_telemetry_event": false
+}

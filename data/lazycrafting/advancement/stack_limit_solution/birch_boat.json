@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "craft_birch_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "lazycrafting:birch_boat"
+      }
+    }
+  },
+  "rewards": {
+    "function": "lazycrafting:give_birch_boat"
+  },
+  "sends_telemetry_event": false
+}

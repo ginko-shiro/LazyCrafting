@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "craft_jungle_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "lazycrafting:jungle_boat"
+      }
+    }
+  },
+  "rewards": {
+    "function": "lazycrafting:give_jungle_boat"
+  },
+  "sends_telemetry_event": false
+}

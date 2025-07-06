@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "chest_boat",
+  "key": {
+    "X": "minecraft:oak_planks",
+    "K": "minecraft:chest"
+  },
+  "pattern": [
+    "XKX",
+    "XXX"
+  ],
+  "result": {
+    "id": "minecraft:oak_chest_boat"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "craft_dark_oak_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "lazycrafting:dark_oak_boat"
+      }
+    }
+  },
+  "rewards": {
+    "function": "lazycrafting:give_dark_oak_boat"
+  },
+  "sends_telemetry_event": false
+}

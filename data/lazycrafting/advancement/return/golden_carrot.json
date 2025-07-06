@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "craft_golden_carrot": {
+      "trigger": "recipe_crafted",
+      "conditions":{
+		"recipe_id": "lazycrafting:golden_carrot"
+		}
+      }
+    },
+  "rewards": {
+    "function":"lazycrafting:give_gold_nugget"
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "craft_cherry_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "lazycrafting:cherry_boat"
+      }
+    }
+  },
+  "rewards": {
+    "function": "lazycrafting:give_cherry_boat"
+  },
+  "sends_telemetry_event": false
+}

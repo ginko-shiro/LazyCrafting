@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_fence_gate",
+  "key": {
+    "X": "#minecraft:warped_stems"
+  },
+  "pattern": [
+    "XXX",
+    " X "
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:warped_fence_gate"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "craft_golden_apple": {
+      "trigger": "recipe_crafted",
+      "conditions":{
+		"recipe_id": "lazycrafting:golden_apple"
+		}
+      }
+    },
+  "rewards": {
+    "function":"lazycrafting:give_gold_ingot"
+  },
+  "sends_telemetry_event": false
+}

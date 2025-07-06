@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "wooden_fence_gate",
+  "key": {
+    "X": "#minecraft:jungle_logs"
+  },
+  "pattern": [
+    "XXX",
+    " X "
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft:jungle_fence_gate"
+  }
+}

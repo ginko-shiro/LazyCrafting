@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_sign",
+  "key": {
+    "X": "#minecraft:bamboo_blocks"
+  },
+  "pattern": [
+    "XXX",
+    "XXX",
+    " X "
+  ],
+  "result": {
+    "count": 6,
+    "id": "minecraft:bamboo_sign"
+  }
+}
