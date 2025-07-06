@@ -1,0 +1,14 @@
+{
+  "criteria": {
+    "craft_pale_oak_boat": {
+      "trigger": "recipe_crafted",
+      "conditions": {
+        "recipe_id": "lazycrafting:pale_oak_boat"
+      }
+    }
+  },
+  "rewards": {
+    "function": "lazycrafting:give_acacia_boat"
+  },
+  "sends_telemetry_event": false
+}

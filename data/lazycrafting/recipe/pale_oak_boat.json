@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "boat",
+  "key": {
+    "X": "#minecraft:pale_oak_logs"
+  },
+  "pattern": [
+    "X X",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:pale_oak_boat"
+  }
+}
