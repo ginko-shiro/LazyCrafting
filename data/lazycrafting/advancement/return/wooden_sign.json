@@ -48,6 +48,12 @@
 			"recipe_id": "lazycrafting:oak_sign"
 			}
 		},
+		"craft_pale_oak_sign": {
+			"trigger": "recipe_crafted",
+			"conditions":{
+			"recipe_id": "lazycrafting:pale_oak_sign"
+			}
+		},
 		"craft_spruce_sign": {
 			"trigger": "recipe_crafted",
 			"conditions":{
@@ -71,6 +77,7 @@
 			"craft_jungle_sign",
 			"craft_mangrove_sign",
 			"craft_oak_sign",
+			"craft_pale_oak_sign",
 			"craft_spruce_sign",
 			"craft_warped_sign"
 		]
